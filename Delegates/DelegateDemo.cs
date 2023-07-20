@@ -1,9 +1,4 @@
 ﻿using DemoLibrary;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Delegates;
 public class DelegateDemo
@@ -15,14 +10,13 @@ public class DelegateDemo
 
         Console.WriteLine($"The total for the cart is {cart.GernerateTotal(SubTotalAlert):C2}");
 
-        //Console.WriteLine();
         Console.Write("Please press any key to exit the application...");
         Console.ReadKey();
     }
 
     private static void SubTotalAlert(decimal subTotal)
     {
-        Console.WriteLine($"The subtoal is {subTotal:C2}"); // C2 converts the decimal into money and puts two decimal formats
+        Console.WriteLine($"The subtoal is {subTotal:C2}"); //C2 converts the decimal into money and puts two decimal formats
     }
 
     private static void PopulateCartWithDemoData()
