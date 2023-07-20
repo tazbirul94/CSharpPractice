@@ -5,11 +5,16 @@ ShoppingCartModel cart = new();
 
 PopulateCartWithDemoData();
 
-Console.WriteLine($"The total for the cart is {cart.GernerateTotal():C2}");
+Console.WriteLine($"The total for the cart is {cart.GernerateTotal(SubTotalAlert):C2}");
 
 //Console.WriteLine();
 Console.Write("Please press any key to exit the application...");
 Console.ReadKey();
+
+void SubTotalAlert(decimal subTotal)
+{
+    Console.WriteLine($"The subtoal is {subTotal:C2}"); // C2 converts the decimal into money and puts two decimal formats
+}
 
 void PopulateCartWithDemoData()
 {
