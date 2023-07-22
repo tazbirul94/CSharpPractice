@@ -1,6 +1,4 @@
-﻿using DemoLibrary;
-
-namespace Delegates;
+﻿namespace Delegates;
 public class DelegateDemo
 {
     public DelegateDemo()

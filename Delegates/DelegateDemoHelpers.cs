@@ -1,4 +1,6 @@
 ﻿using DemoLibrary;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 public static class DelegateDemoHelpers
 {
@@ -9,6 +11,15 @@ public static class DelegateDemoHelpers
         cart.Items.Add(new ProductModel { ItemName = "Milk", Price = 2.95M });
         cart.Items.Add(new ProductModel { ItemName = "Strawberries", Price = 7.51M });
         cart.Items.Add(new ProductModel { ItemName = "Blueberries", Price = 8.84M });
+    }
+
+    public static void PopulateCartWithDemoDataFunc<T>(T cartItem) where T : class
+    {
+        List<T> list = new List<T>();
+        //T entry = new();
+        list.Add(cartItem);
+
+        //var cols = entry.GetType().GetProperties(); // reflection
     }
 
     public static void SubTotalAlert(decimal subTotal)

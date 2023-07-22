@@ -12,6 +12,8 @@ public class FuncDemo
 
         Console.Write("Please press any key to exit the application...");
         Console.ReadKey();
+
+        DelegateDemoHelpers.PopulateCartWithDemoDataFunc<ProductModel>(new ProductModel { ItemName ="Hello", Price =2.3M});
     }
 
     private static decimal CalculateLeveledDiscount(List<ProductModel> items, decimal subTotal)
