@@ -1,5 +1,4 @@
-﻿
-namespace DemoLibrary;
+﻿namespace DemoLibrary;
 
 public class ShoppingCartModelFunc
 {
