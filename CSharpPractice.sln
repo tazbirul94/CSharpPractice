@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\DemoLibrary.csproj", "{A34772DE-C1B2-4EF5-BC83-CFC353DF5474}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWorkerService", "DemoWorkerService\DemoWorkerService.csproj", "{28DB036E-40FD-4628-8EB0-4789124A28A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService", "DemoWorkerService\WorkerService.csproj", "{28DB036E-40FD-4628-8EB0-4789124A28A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoGenerics", "DemoGenerics\DemoGenerics.csproj", "{F4B8BA66-DF73-490B-9659-33E4DBBF2B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "DemoGenerics\Generics.csproj", "{F4B8BA66-DF73-490B-9659-33E4DBBF2B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExceptionHandling", "DemoExceptionHandling\DemoExceptionHandling.csproj", "{6F6EC77B-2376-4906-8C60-A0BEF413A248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "DemoExceptionHandling\ExceptionHandling.csproj", "{6F6EC77B-2376-4906-8C60-A0BEF413A248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
