@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
