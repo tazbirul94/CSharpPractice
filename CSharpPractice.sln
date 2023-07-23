@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoLibrary", "DemoLibrary\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService", "DemoWorkerService\WorkerService.csproj", "{28DB036E-40FD-4628-8EB0-4789124A28A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "DemoGenerics\Generics.csproj", "{F4B8BA66-DF73-490B-9659-33E4DBBF2B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "DemoGenerics\Generics.csproj", "{F4B8BA66-DF73-490B-9659-33E4DBBF2B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "DemoExceptionHandling\ExceptionHandling.csproj", "{6F6EC77B-2376-4906-8C60-A0BEF413A248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "DemoExceptionHandling\ExceptionHandling.csproj", "{6F6EC77B-2376-4906-8C60-A0BEF413A248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", "{A7823A2C-ABB5-401F-ADEF-F01545C1BF4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{6F6EC77B-2376-4906-8C60-A0BEF413A248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F6EC77B-2376-4906-8C60-A0BEF413A248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F6EC77B-2376-4906-8C60-A0BEF413A248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
