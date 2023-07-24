@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "DemoEx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SubModules", "SubModules", "{A7823A2C-ABB5-401F-ADEF-F01545C1BF4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{BE1AE48A-FFB7-42E2-8398-2B511D054AE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMiddleware", "CustomMiddleware\CustomMiddleware.csproj", "{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.WebApi", "Demo.WebApi\Demo.WebApi.csproj", "{D0A771C5-D8A9-4F1A-8310-83801A8306EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{982A2C8D-FB2E-45EF-BF47-6CEFFC098B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
