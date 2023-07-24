@@ -2,12 +2,15 @@
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build 
 # Current working directory
+#ENV ASPNETCORE_URLS http://*:5000
+ENV ASPNETCORE_ENVIRONMENT=Development 
 WORKDIR /source  
 # copy everything from the current project directory to the current working directory 
 COPY . . 
 # restore all the preoject dependencies
 RUN dotnet restore "Demo.WebApi.csproj"
 # all the binaries will be publishe dto the app directory
+#RUN dotnet publish "Demo.WebApi.csproj" -c Release -o /app --no-restore 
 RUN dotnet publish "Demo.WebApi.csproj" -c Release -o /app --no-restore 
 
 #Serve Stage
