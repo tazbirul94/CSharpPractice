@@ -11,6 +11,16 @@ Console.WriteLine("=============================================================
 Console.WriteLine("============================ FUNC EXAMPLE ===============================");
 FuncDemo funcDemo = new();
 
+Console.WriteLine();
+
+Console.WriteLine("=========================================================================");
+Console.WriteLine("============================ ACTION EXAMPLE =============================");
+
+ActionDemo action = new();
+action.PrintAction();
+
+Console.ReadKey();
+
 //=================================================================================
 //================================ CLASSIC STYLE ==================================
 //=================================================================================
@@ -72,3 +82,7 @@ FuncDemo funcDemo = new();
 //    cart.Items.Add(new ProductModel { ItemName = "Strawberries", Price = 7.51M });
 //    cart.Items.Add(new ProductModel { ItemName = "Blueberries", Price = 8.84M });
 //}
+
+
+
+
