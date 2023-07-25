@@ -1,0 +1,13 @@
+docker build --rm -t demo-api:latest .
+
+docker run --rm -p 5000:5000 -p 5001:5001 -e APNETCORE_HTTP_PORT=https://+:5001 -e ASPNETCORE_URLS=http://+:5000 demo-api:latest
+
+docker login
+
+docker run --rm -p 5000:5000 -p 5001:5001 -e APNETCORE_HTTP_PORT=https://+:5001 -e ASPNETCORE_URLS=http://+:5000 bekarmanush007/csharp-practice
+
+docker run bekarmanush007/csharp-practice:latest
+
+docker push bekarmanush007/csharp-practice:latest
+
+docker tag demo-api bekarmanush007/csharp-practice:latest
