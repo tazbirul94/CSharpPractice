@@ -12,5 +12,10 @@ namespace Demo.WebApi.Repositories
             _db.Items.Add(new Product() { Id = 1, Name ="Hello"});
         }
         public override async Task<Product?> GetProductById(int id) => await Task.FromResult(_db.Items.FirstOrDefault(x => x.Id == id));
+
+        public override async Task<List<Product>> GetProducts()
+        {
+            return await Task.FromResult(new List<Product>());
+        }
     }
 }

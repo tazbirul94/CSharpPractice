@@ -2,7 +2,12 @@
 
 public abstract class IProductService<T>
 {
-    public abstract Task<T> GetProductById(int id);
+    public abstract Task<T?> GetProductById(int id);
+
+    public virtual Task<List<T>> GetProducts()
+    {
+        return Task.FromResult(new List<T>());
+    }
 }
 
 //public abstract class AbstractClass<T>
