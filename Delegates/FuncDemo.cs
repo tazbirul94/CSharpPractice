@@ -10,8 +10,7 @@ public class FuncDemo
 
         Console.WriteLine($"The total for the cart is {cart.GernerateTotal(DelegateDemoHelpers.SubTotalAlert, CalculateLeveledDiscount):C2}");
 
-        Console.Write("Please press any key to exit the application...");
-        Console.ReadKey();
+        //Console.Write("Please press any key to exit the application...");
 
         DelegateDemoHelpers.PopulateCartWithDemoDataFunc<ProductModel>(new ProductModel { ItemName ="Hello", Price =2.3M});
     }
