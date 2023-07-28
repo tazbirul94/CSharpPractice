@@ -1,0 +1,3 @@
+[submodule "Submodule/RabbitMQTest"]
+	path = Submodule/RabbitMQTest
+	url = https://github.com/tazbirul94/RabbitMQTest.git
