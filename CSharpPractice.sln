@@ -19,6 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomMiddleware", "CustomM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.WebApi", "Demo.WebApi\Demo.WebApi.csproj", "{D0A771C5-D8A9-4F1A-8310-83801A8306EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{BA148957-EE29-483B-AD93-97DF1C01A9FD}"
+	ProjectSection(SolutionItems) = preProject
+		GitSubmoduleCommands.md = GitSubmoduleCommands.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
