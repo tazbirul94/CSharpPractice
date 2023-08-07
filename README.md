@@ -7,3 +7,6 @@
 - Design Paaterns
 - Razor
 - Azure Devops
+- RabbitMQ
+- MeditR
+- 
