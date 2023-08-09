@@ -24,6 +24,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", 
 		GitSubmoduleCommands.md = GitSubmoduleCommands.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Pattern", "Design Pattern", "{7BE63352-F2D5-4BEA-8DE9-FB6BDC9F6398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR", "MediatR\MediatR.csproj", "{4C2540E0-580F-4618-940E-347B914186EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,9 +66,16 @@ Global
 		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0A771C5-D8A9-4F1A-8310-83801A8306EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2540E0-580F-4618-940E-347B914186EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2540E0-580F-4618-940E-347B914186EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2540E0-580F-4618-940E-347B914186EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2540E0-580F-4618-940E-347B914186EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C2540E0-580F-4618-940E-347B914186EB} = {7BE63352-F2D5-4BEA-8DE9-FB6BDC9F6398}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88C560D0-685C-49CB-BE23-7B5E4F0B840B}
