@@ -24,6 +24,7 @@ WORKDIR /app
 #copy everything from the build  stage to the app directory to the current working directory
 COPY --from=build /app ./ 
 
+#exposes the docker file
 EXPOSE 5000
 # binaries which will run the dot net api
 ENTRYPOINT ["dotnet", "Demo.WebApi.dll"] 
