@@ -19,7 +19,12 @@ Console.WriteLine("============================ ACTION EXAMPLE =================
 ActionDemo action = new();
 action.PrintAction();
 
+ProductModel test = new() { ItemName = "Test Item", Price = 20 };
+Console.WriteLine(test);
+
 Console.ReadKey();
+
+
 
 //=================================================================================
 //================================ CLASSIC STYLE ==================================
