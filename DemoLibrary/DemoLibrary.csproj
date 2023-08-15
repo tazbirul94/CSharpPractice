@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>$(AssemblyName)-taz</PackageId>
-    <Title>Demo Library Taz</Title>
+    <Title>Demo Library Tazbirul</Title>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
