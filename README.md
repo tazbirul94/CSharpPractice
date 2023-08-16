@@ -9,4 +9,3 @@
 - Azure Devops
 - RabbitMQ
 - MeditR
-- 
