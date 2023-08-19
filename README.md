@@ -10,3 +10,5 @@
 - RabbitMQ
 - MeditR
 - Auto mapper type auto add demo classes for testing
+- Unit Testing
+- Integration Testing
